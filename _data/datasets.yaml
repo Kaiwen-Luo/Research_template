@@ -10,6 +10,6 @@
   storage: remote
   link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
   DOI:  ""
-  name: "microtubule catastrophe times for labelled/unlabelled tubulin"
+  name: "microtubule catastrophe times for labeled/unlabeled tubulin"
   filetype: .csv
   filesize: 5 kb

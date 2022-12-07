@@ -6,7 +6,7 @@
   req:
     - ds: 
       storage: remote
-      title: microtubule catastrophe times for labelled/unlabelled tubulin
+      title: microtubule catastrophe times for labeled/unlabeled tubulin
       link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
 
 - fig:
@@ -18,7 +18,7 @@
   req:
     - ds:
       storage: remote
-      title: microtubule catastrophe times for labelled/unlabelled tubulin
+      title: microtubule catastrophe times for labeled/unlabeled tubulin
       link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig:
@@ -30,7 +30,7 @@
   req:
     - ds:
       storage: remote
-      title: microtubule catastrophe times for labelled/unlabelled tubulin
+      title: microtubule catastrophe times for labeled/unlabeled tubulin
       link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
 
 - fig:
