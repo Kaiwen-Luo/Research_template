@@ -1,0 +1,15 @@
+- dataset:
+  storage: remote
+  link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+  DOI:  ""
+  name: "microtubule catastrophe times for various concentrations of tubulin"
+  filetype: .csv
+  filesize: 11 kb
+
+- dataset:
+  storage: remote
+  link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+  DOI:  ""
+  name: "microtubule catastrophe times for labelled/unlabelled tubulin"
+  filetype: .csv
+  filesize: 5 kb

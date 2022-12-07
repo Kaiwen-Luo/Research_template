@@ -1,0 +1,58 @@
+- fig:
+  title: "Fig. 1: ECDF of time before catastrophe with labeled and unlabeled tubulin"
+  filename: ECDF.py
+  desc:  Used to generate the figure1
+  pic: fig1.png
+  req:
+    - ds: 
+      storage: remote
+      title: microtubule catastrophe times for labelled/unlabelled tubulin
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+
+- fig:
+  title: "Fig. 2: ECDF of time before catastrophe of empirical distribution versus successive Poisson process "
+  filename: Simulating_distributions.py
+  desc: 
+      Used to generate Figure 2.
+  pic: fig2.png
+  req:
+    - ds:
+      storage: remote
+      title: microtubule catastrophe times for labelled/unlabelled tubulin
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+      
+- fig:
+  title: "Fig. 3: Bootstrapping-generated samples testing the hypothesis that the means of the distributions associated with labeled and unlabeled microtubule time to catastrophe are the same"
+  filename: Confidence_intervals.py
+  desc:
+      Used to generate Figure 3.
+  pic: fig3.png
+  req:
+    - ds:
+      storage: remote
+      title: microtubule catastrophe times for labelled/unlabelled tubulin
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+
+- fig:
+  title: "Fig. 4: Graphical model assessment comparing the model with Gamma distribution or successive Poisson process, left being predictive ECDF and right being differences between empirical ECDF with simulated ECDF sampled from model distribution parameterized by MLE parameters"
+  filename: Model_assessment.py
+  desc:
+      Used to generate Figure 4.
+  pic: fig4.png
+  req:
+    - ds:
+      storage: remote
+      title: microtubule catastrophe times for various concentrations of tubulin
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+
+- fig:
+  title: "Fig. 5: Summary of MLE and confidence intervals of alphas and betas of the Gamma model for the time before catastrophe across different tubulin concentration"
+  filename: Model_assessment.py
+  desc:
+      Used to generate Figure 5.
+  pic: fig5.png
+  req:
+    - ds:
+      storage: remote
+      title: microtubule catastrophe times for various concentrations of tubulin
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"

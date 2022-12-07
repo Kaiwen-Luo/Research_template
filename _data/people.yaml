@@ -1,0 +1,31 @@
+# ##############################################################################
+# Authors List
+# ------------------------------------------------------------------------------
+# This YAML data file contains entry for each author involved in the work
+# This YAML data file contains information for each author of the work. The 
+# author list will be generated in the order in which they are listed below. 
+# You can  add additional fields to each person, but these will not show up
+# automatically and must then be included manually in the Liquid template code 
+# of the `page01_people.md` file.
+# ##############################################################################
+- author:
+  name: Kaiwen Luo
+  link: "https://github.com/Kaiwen-Luo"
+  title: PhD student
+  img: Kaiwen_Luo_Profile.jpeg
+  institute: Caltech
+  other_info:
+     Email Address: "kluo@caltech.edu"
+- author:
+  name: Rongrong Du
+  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+  title: PhD student
+  img: Rongrong.jpeg
+  institute: Caltech
+  other_info:
+    
+
+- author:
+  name: Justin Bois
+  title: Teaching Professor
+  institute: Caltech
