@@ -1,17 +1,15 @@
-title: Your Research Project Title
+title: >
+    Investigating microtubule catastrophe
 description: > # this means to ignore newlines until "baseurl:"
-  This website is an online repository for your manuscript. You should include a
-  concise (1-sentence) summary of your project here. This can be as simple as
-  the title of the paper.  
 
 permalink: ':title/' # This declares the root of your website and shouldn't be touched.
-baseurl:  "/" # the subpath of your site, In most cases this can be left blank
-url: "" # Base of your website.In most cases, this will be left blank
+site.baseurl:  "/" # the subpath of your site, In most cases this can be left blank
+site.url: "" # Base of your website.In most cases, this will be left blank
 
 # You can include social icons
-site-twitter: #if your site has a twitter account, enter it here
-social-github: RPGroup-PBoC # add your Github handle here.
-social-email: username@hostname.com
+site-twitter: kluo_caltech #if your site has a twitter account, enter it here
+social-github: Kaiwen-Luo # add your Github handle here.
+social-email: kluo@caltech.edu
 
 # If you are using google analytics to track website traffic, you can insert the
 # tracking key below. It will be automatically inserted into the header of every
@@ -20,7 +18,7 @@ social-email: username@hostname.com
 
 # You can include a logo for your work as a .png that is saved in the folder 
 # 'assets/img/'. If you want a logo to show up, put the filename of the logo here
-author-img: logo.png # Comment this line out if you don't want a logo
+author-img: IMG_2931.png # Comment this line out if you don't want a logo
 
 
 # Build settings for the website. Do not modify this unless you know what you

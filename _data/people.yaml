@@ -9,23 +9,23 @@
 # of the `page01_people.md` file.
 # ##############################################################################
 - author:
-  name: Dr. Osophila
-  link: "https://en.wikipedia.org/wiki/Drosophila"
-  title: Postdoctoral Scholar
-  img: dr_osophila.jpg
-  institute: Bicoid Institute of Development
+  name: Kaiwen Luo
+  link: "https://github.com/Kaiwen-Luo"
+  title: PhD student
+  img: Kaiwen_Luo_Profile.jpeg
+  institute: Caltech
   other_info:
-     Email Address: "flyguy@university.edu"
+     Email Address: "kluo@caltech.edu"
 - author:
-  name: Dr. Melanie O'Gaster
+  name: Rongrong Du
   link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
-  title: Postdoctoral Scholar
-  img: melanogaster.jpg
-  institute: French Flag Research Institute
+  title: PhD student
+  img: Rongrong.jpeg
+  institute: Caltech
   other_info:
-    Current Location: Apple Juice Plates, Inc
+    
 
 - author:
-  name: Sally Monella
-  title: Research Technician
-  institute: French Flag Research Institute
+  name: Justin Bois
+  title: Teaching Professor
+  institute: Caltech

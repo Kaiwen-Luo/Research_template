@@ -20,11 +20,13 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 	<meta charset="utf-8">
-	<title>Code and Data - Your Research Project Title</title>
+	<title>Code and Data - Investigating microtubule catastrophe
+</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
-    <meta content="Your Research Project Title" property="og:site_name">
+    <meta content="Investigating microtubule catastrophe
+" property="og:site_name">
   
     <meta content="Code and Data" property="og:title">
   
@@ -32,7 +34,7 @@
     <meta content="article" property="og:type">
   
   
-    <meta content="This website is an online repository for your manuscript. You should include a concise (1-sentence) summary of your project here. This can be as simple as the title of the paper.  
+    <meta content="This is an website describing the students' work on analyzing the data from a paper describing microtubule catastrophe.
 " property="og:description">
   
   
@@ -46,7 +48,7 @@
   
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@">
+    <meta name="twitter:site" content="@kluo_caltech">
     <meta name="twitter:creator" content="@">
   
     <meta name="twitter:title" content="Code and Data">
@@ -55,7 +57,7 @@
     <meta name="twitter:url" content="http://localhost:4000/code">
   
   
-    <meta name="twitter:description" content="This website is an online repository for your manuscript. You should include a concise (1-sentence) summary of your project here. This can be as simple as the title of the paper.  
+    <meta name="twitter:description" content="This is an website describing the students' work on analyzing the data from a paper describing microtubule catastrophe.
 ">
   
   
@@ -92,7 +94,7 @@
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="/"><img src="/assets/img/logo.png" alt=""></a>
+        <a href="/"><img src="/assets/img/IMG_2931.png" alt=""></a>
       </div>
       <div class="author-name"></div>
       <div class="sidebar-links">
@@ -110,10 +112,6 @@
       <hr>
       
       
-       <p><a href="http://localhost:4000/interactive_a">Interactive Figure 1</a></p>
-      <hr>
-      
-      
       
       
       
@@ -128,13 +126,15 @@
       <ul>
         
         
-          <li class="github"><a href="http://github.com/RPGroup-PBoC" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li class="github"><a href="http://github.com/Kaiwen-Luo" target="_blank"><i class="fa fa-github"></i></a></li>
         
+        
+          <li class="email"><a href="mailto:kluo@caltech.edu"><i class="fa fa-envelope-o"></i></a></li>
         
       </ul> 
     </section> 
     <div class="copyright">
-      <p>2019 &copy; 
+      <p>2022 &copy; 
     </div>
     <center>
     </center>
@@ -161,12 +161,24 @@
 
 <ul>
   <li>
-    <p><a href="http://localhost:4000//software/script1.py"><strong>script1.py</strong></a>
-| Super fancy script which calcualate some complicated stuff with well-documented code.</p>
+    <p><a href="http://localhost:4000//software/ECDF.py"><strong>ECDF.py</strong></a>
+| ECDF for the data.</p>
   </li>
   <li>
-    <p><a href="http://localhost:4000//software/script2.py"><strong>script2.py</strong></a>
-| Yet another script that does something-or-other.</p>
+    <p><a href="http://localhost:4000//software/Simulating_distributions.py"><strong>Simulating_distributions.py</strong></a>
+| Simulate with Gamma distribution or successive Poisson model.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/Confidence_intervals.py"><strong>Confidence_intervals.py</strong></a>
+| Generate confidence intervals for te plug-in estimate of the mean time to catastrophe, or the confidence interval of a theoretical Normal distribution, also an NHST on comparing the mean time to catastrophe between the labelled/unlabelled tubulin.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/MLE_microtubule_catastrophe.py"><strong>MLE_microtubule_catastrophe.py</strong></a>
+| MLE of the two models mentioned.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/Model_assessment.py"><strong>Model_assessment.py</strong></a>
+| Use MLE, confidence interval, graphical model assessment and Akaike method to compare which model is better (the Gamma one or the successive Poisson one).</p>
   </li>
 </ul>
 
@@ -174,16 +186,12 @@
 
 <ul>
   <li>
-    <p><a href="http://localhost:4000//datasets/dataset1.csv">Sampling statistics from some fancy experiment</a> | (filetype:
-.csv)(24 MB)</p>
+    <p><a href="https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv">microtubule catastrophe times for various concentrations of tubulin</a> | (filetype:
+.csv)(11 kb)</p>
   </li>
   <li>
-    <p><a href="http://localhost:4000//datasets/dataset2.csv">Table of measurements from an old-school study for comparison</a> | (filetype:
-.csv)</p>
-  </li>
-  <li>
-    <p><a href="">Anonymized data from web scraping</a> | (filetype:
-.zip)(2 gb)</p>
+    <p><a href="https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv">microtubule catastrophe times for labelled/unlabelled tubulin</a> | (filetype:
+.csv)(5 kb)</p>
   </li>
 </ul>
 
@@ -194,13 +202,13 @@
 <a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig1.png)" href="/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="http://localhost:4000//software/script1.py">Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic </a></b>
+<b class="post-title"><a href="http://localhost:4000//software/ECDF.py">Fig. 1: ECDF of time before catastrophe with labeled and unlabeled tubulin</a></b>
 <p> Used to generate the figure1</p>
 
 <i>Necessary Data Sets </i><br />
 
 
-<a style="font-size: 0.9em;" href="{{ds.link}}"> - Dataset 1 </a><br />
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for labelled/unlabelled tubulin </a><br />
 
 </div>
 </article>
@@ -210,16 +218,13 @@
 <a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig2.png)" href="/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="http://localhost:4000//software/script2.py">Fig. 2: Activated charcoal tilde kombucha. </a></b>
-<p> Used to generate Figure 2, illustrating activated kombucha on tap.</p>
+<b class="post-title"><a href="http://localhost:4000//software/Simulating_distributions.py">Fig. 2: ECDF of time before catastrophe of empirical distribution versus successive Poisson process </a></b>
+<p> Used to generate Figure 2.</p>
 
 <i>Necessary Data Sets </i><br />
 
 
-<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Kombucha tempura desconstructed measures </a><br />
-
-
-<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Gravitational wave lo-fi beats to chill and study to </a><br />
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for labelled/unlabelled tubulin </a><br />
 
 </div>
 </article>
@@ -229,16 +234,45 @@
 <a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig3.png)" href="/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="http://localhost:4000//software/script1.py">Fig. 5: Sustainable pour-over VHS</a></b>
-<p> Used to generate Figure 5,</p>
+<b class="post-title"><a href="http://localhost:4000//software/Confidence_intervals.py">Fig. 3: Bootstrapping-generated samples testing the hypothesis that the means of the distributions associated with labeled and unlabeled microtubule time to catastrophe are the same</a></b>
+<p> Used to generate Figure 3.</p>
 
 <i>Necessary Data Sets </i><br />
 
 
-<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Summarized dataset 1 </a><br />
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for labelled/unlabelled tubulin </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig4.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/Model_assessment.py">Fig. 4: Graphical model assessment comparing the model with Gamma distribution or successive Poisson process, left being predictive ECDF and right being differences between empirical ECDF with simulated ECDF sampled from model distribution parameterized by MLE parameters</a></b>
+<p> Used to generate Figure 4.</p>
+
+<i>Necessary Data Sets </i><br />
 
 
-<a style="font-size: 0.9em;" href="{{ds.link}}"> - Summarized dataset 2 </a><br />
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for various concentrations of tubulin </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig5.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/Model_assessment.py">Fig. 5: Summary of MLE and confidence intervals of alphas and betas of the Gamma model for the time before catastrophe across different tubulin concentration</a></b>
+<p> Used to generate Figure 5.</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for various concentrations of tubulin </a><br />
 
 </div>
 </article>

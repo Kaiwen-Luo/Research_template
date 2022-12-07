@@ -1,11 +1,21 @@
 - script:
-  name: script1.py
+  name: ECDF.py
   desc: >
-    Super fancy script which calcualate some complicated stuff with
-    well-documented code.
+    ECDF for the data.
 - script:
-  name: script2.py
+  name: Simulating_distributions.py
   desc: >
-    Yet another script that does something-or-other.
-
+    Simulate with Gamma distribution or successive Poisson model.
+- script:
+  name: Confidence_intervals.py
+  desc: >
+    Generate confidence intervals for te plug-in estimate of the mean time to catastrophe, or the confidence interval of a theoretical Normal distribution, also an NHST on comparing the mean time to catastrophe between the labelled/unlabelled tubulin.
+- script:
+  name: MLE_microtubule_catastrophe.py
+  desc: >
+    MLE of the two models mentioned.
+- script:
+  name: Model_assessment.py
+  desc: >
+    Use MLE, confidence interval, graphical model assessment and Akaike method to compare which model is better (the Gamma one or the successive Poisson one).
 
