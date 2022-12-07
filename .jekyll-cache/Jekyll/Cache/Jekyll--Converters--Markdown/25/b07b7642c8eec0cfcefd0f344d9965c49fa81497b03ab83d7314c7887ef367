@@ -1,0 +1,17 @@
+I"ª<hr />
+
+<h1 id="analysis-of-microtubule-catastrophe-dynamics">Analysis of microtubule catastrophe dynamics</h1>
+
+<p>Kaiwen Luo, Rongrong Du (equal contribution), Justin Bois* |
+Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA 91125, USA</p>
+
+<h2 id="abstract">Abstract</h2>
+<p>In this paper we investigated microtubule catastrophe data from (Gardner et al., 2011) to analyze the dynamics of microtubule catastrophe, an event where the microtubules in cells undergo rapid destruction after a phase of active growth. We tried modelling the data with a model based on Gamma distribution, or successive Poisson process. The former hypothesizes that multiple events with same rate need to happen until the catastrophe can occur; the latter hypothesizes that 2 sequential Poisson process with different rates need to happen for the catastrophe to happen. We compared the two models based on data with different tubulin concentration and conclude that the Gamma distribution model may better describe the catastrophe process. The exact molecular mechanism remains to be investigated.</p>
+
+<h2 id="summary">Summary</h2>
+<p>The significance of this paper: we built a biophysical model for microtubule catastrophe that hints the underlying mechanism of the microtubule catastrophe event, assisting further investigation of the process experimentally.</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>Here we express the sincere gratitute to the guidance and help from the bebi103a team at Caltech, especially Justin Bois, David Goertsen, and Anastasiya D. Oguienko. Also a huge thanks to Griffin Chure who provides the template and guidance of this website.</p>
+
+:ET

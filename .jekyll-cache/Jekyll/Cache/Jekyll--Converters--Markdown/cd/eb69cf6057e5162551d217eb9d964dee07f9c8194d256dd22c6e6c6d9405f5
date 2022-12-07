@@ -1,0 +1,123 @@
+I"„<hr />
+
+<h2 id="code">Code</h2>
+
+<ul>
+  <li>
+    <p><a href="http://localhost:4000//software/ECDF.py"><strong>ECDF.py</strong></a>
+| ECDF for the data.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/Simulating_distributions.py"><strong>Simulating_distributions.py</strong></a>
+| Simulate with Gamma distribution or successive Poisson model.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/Confidence_intervals.py"><strong>Confidence_intervals.py</strong></a>
+| Generate confidence intervals for te plug-in estimate of the mean time to catastrophe, or the confidence interval of a theoretical Normal distribution, also an NHST on comparing the mean time to catastrophe between the labelled/unlabelled tubulin.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/MLE_microtubule_catastrophe.py"><strong>MLE_microtubule_catastrophe.py</strong></a>
+| MLE of the two models mentioned.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/Model_assessment.py"><strong>Model_assessment.py</strong></a>
+| Use MLE, confidence interval, graphical model assessment and Akaike method to compare which model is better (the Gamma one or the successive Poisson one).</p>
+  </li>
+</ul>
+
+<h2 id="data-sets">Data Sets</h2>
+
+<ul>
+  <li>
+    <p><a href="https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv">microtubule catastrophe times for various concentrations of tubulin</a> | (filetype:
+.csv)(11 kb)</p>
+  </li>
+  <li>
+    <p><a href="https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv">microtubule catastrophe times for labelled/unlabelled tubulin</a> | (filetype:
+.csv)(5 kb)</p>
+  </li>
+</ul>
+
+<h2 id="figure-generation">Figure Generation</h2>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig1.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/ECDF.py">Fig. 1: ECDF of time before catastrophe with labeled and unlabeled tubulin</a></b>
+<p> Used to generate the figure1</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for labelled/unlabelled tubulin </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig2.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/Simulating_distributions.py">Fig. 2: ECDF of time before catastrophe of empirical distribution versus successive Poisson process </a></b>
+<p> Used to generate Figure 2.</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for labelled/unlabelled tubulin </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig3.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/Confidence_intervals.py">Fig. 3: Bootstrapping-generated samples testing the hypothesis that the means of the distributions associated with labeled and unlabeled microtubule time to catastrophe are the same</a></b>
+<p> Used to generate Figure 3.</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for labelled/unlabelled tubulin </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig4.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/Model_assessment.py">Fig. 4: Graphical model assessment comparing the model with Gamma distribution or successive Poisson process, left being predictive ECDF and right being differences between empirical ECDF with simulated ECDF sampled from model distribution parameterized by MLE parameters</a></b>
+<p> Used to generate Figure 4.</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for various concentrations of tubulin </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig5.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/Model_assessment.py">Fig. 5: Summary of MLE and confidence intervals of alphas and betas of the Gamma model for the time before catastrophe across different tubulin concentration</a></b>
+<p> Used to generate Figure 5.</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - microtubule catastrophe times for various concentrations of tubulin </a><br />
+
+</div>
+</article>
+
+:ET
